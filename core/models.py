@@ -1,8 +1,7 @@
 """
 FinOps Cloud Waste Hunter & Auto-Remediator
 Data Models for Cloud Resources, Telemetry, Waste Detection, Cost, AI, IaC, and GitOps.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Team: Vivek Pandey (24MIS0216) 
 """
 
 from enum import Enum

@@ -16,8 +16,7 @@ Covers:
  9. Environment variable GEMINI_MODEL configuration
  10. FinOps safety prompt verification
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import json

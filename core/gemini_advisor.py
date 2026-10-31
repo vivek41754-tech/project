@@ -4,8 +4,7 @@ Real Google Gemini AI Advisor Service
 Analyzes real waste findings and CloudWatch telemetry using Google Gemini API (gemini-3.5-flash-lite).
 Strictly analytical and advisory: NEVER executes AWS actions or calls Terraform apply.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Team: Vivek Pandey (24MIS0216) 
 """
 
 import os

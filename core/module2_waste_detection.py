@@ -1,8 +1,7 @@
 """
 Module 2: Waste Detection
 Detects unattached storage, idle serverless functions, oversized resources, and networking waste.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Team: Vivek Pandey (24MIS0216) 
 """
 
 import uuid

@@ -19,8 +19,7 @@ Safety Invariants:
 - Bedrock is recommendation-only and CANNOT invoke apply.
 - Live mode NEVER fakes Terraform success.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

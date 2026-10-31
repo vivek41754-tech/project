@@ -3,8 +3,7 @@ Unit Tests for AWS Connection & Authentication Service (Mocked)
 Tests standard credential resolution, STS verification, error classification,
 and individual service health probes without calling real AWS APIs.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import sys

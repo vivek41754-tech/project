@@ -9,8 +9,7 @@ Safety Guarantees:
 - Masks potential secrets and credentials from outputs.
 - Returns clear status if Terraform is not installed (TERRAFORM_NOT_INSTALLED).
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

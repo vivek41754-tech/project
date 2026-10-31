@@ -4,8 +4,7 @@ Real CloudWatch Metrics Collection Service
 Collects utilization metrics for discovered AWS resources (EC2, EBS, Lambda)
 using CloudWatch get_metric_statistics with configurable evaluation periods.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import logging

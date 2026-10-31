@@ -4,8 +4,7 @@ Real Amazon Bedrock AI Advisor Service
 Analyzes real waste findings and CloudWatch telemetry using Bedrock models.
 Strictly analytical and advisory: NEVER executes AWS actions or calls Terraform apply.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

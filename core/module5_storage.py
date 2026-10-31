@@ -1,8 +1,7 @@
 ﻿"""
 Module 5: Report Storage & Audit Ledger
 Stores structured waste detection data and reports using Amazon S3 and Amazon DynamoDB.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os
@@ -149,8 +148,7 @@ class ReportStorageModule:
 
         lines = [
             "# FinOps Cloud Waste Hunter & Auto-Remediator Audit Report",
-            "**Course Project Review-1** | ISWE309L Cloud Computing",
-            "**Project Team**: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)",
+            "**Project Lead**: Vivek Pandey (24MIS0216)",
             f"**Execution Timestamp**: `{data.get('timestamp')}`",
             f"**Run ID**: `{data.get('run_id')}`",
             "",

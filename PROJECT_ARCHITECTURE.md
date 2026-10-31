@@ -1,6 +1,6 @@
 # PROJECT ARCHITECTURE & AWS INTEGRATION MIGRATION PLAN
 **FinOps Cloud Waste Hunter & Auto-Remediator**
-*ISWE309L Cloud Computing Course Project*
+*Cloud Waste Hunter Architecture Specification*
 
 ---
 

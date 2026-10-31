@@ -9,8 +9,7 @@ Safety Invariants:
 - Rejects dangerous branch names and staging of secrets or Terraform state files.
 - Returns explicit error statuses: GIT_NOT_INSTALLED, GIT_REPOSITORY_NOT_FOUND, etc.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

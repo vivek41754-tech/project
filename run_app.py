@@ -1,8 +1,7 @@
 """
 FinOps Cloud Waste Hunter & Auto-Remediator - Application Launcher
 Launches FastAPI backend server and automatically opens browser dashboard.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import sys
@@ -39,9 +38,7 @@ def open_browser(url: str):
 def print_banner(port: int):
     print("=" * 76)
     print("  ⚡ FinOps Cloud Waste Hunter & Auto-Remediator")
-    print("  Course:      ISWE309L Cloud Computing | Slot: A1 + TA1")
-    print("  Institution: Vellore Institute of Technology (VIT)")
-    print("  Project Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)")
+    print("  Author:      Vivek Pandey (24MIS0216)")
     print("=" * 76)
     print(f"  [+] Local Web Dashboard:   http://localhost:{port}/")
     print(f"  [+] REST API Swagger Docs: http://localhost:{port}/docs")

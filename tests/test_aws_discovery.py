@@ -3,8 +3,7 @@ Unit Tests for Real AWS Resource Discovery Service (Mocked)
 Tests read-only discovery of EC2, EBS, EIP, Lambda, and S3 resources,
 pagination handling, permission isolation, and strict no-fallback behavior in live AWS mode.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import sys

@@ -13,13 +13,10 @@ An automated Cloud Cost Optimization and DevOps platform that continuously monit
 
 ## 🎓 Academic Project Profile
 - **Institution:** School of Computer Science Engineering and Information Systems, Vellore Institute of Technology (VIT)
-- **Course Code:** ISWE309L Cloud Computing
-- **Slot:** A1 + TA1
 - **Review Phase:** Course Project Review-1
 - **Project Team:**
   - **Vivek Pandey** &bull; Reg No: `24MIS0216` &bull; Email: `vivek.pandey2024@vitstudent.ac.in`
-  - **S. Hemal** &bull; Reg No: `24MIS0050` &bull; Email: `hemal.s2024@vitstudent.ac.in`
-
+  
 ---
 
 ## 🌟 Key Features & Problem Solved

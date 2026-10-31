@@ -1,8 +1,7 @@
 ﻿"""
 FinOps Cloud Waste Hunter & Auto-Remediator CLI
 Command-line interface for headless automation, CI/CD pipelines, and terminal demonstrations.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import sys
@@ -18,7 +17,7 @@ from core.engine import FinOpsEngine
 
 def main():
     parser = argparse.ArgumentParser(
-        description="FinOps Cloud Waste Hunter & Auto-Remediator (ISWE309L Cloud Computing)"
+        description="FinOps Cloud Waste Hunter & Auto-Remediator"
     )
     parser.add_argument(
         "--scenario",
@@ -65,8 +64,6 @@ def main():
     # Rich Text Terminal Output
     print("=" * 80)
     print(" [FINOPS] Cloud Waste Hunter & Auto-Remediator")
-    print(" Course: ISWE309L Cloud Computing | Slot: A1 + TA1 | VIT Vellore")
-    print(" Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)")
     print("=" * 80)
     print(f"[*] Execution Run ID:      {report.run_id}")
     print(f"[*] Analyzed Scenario:     {report.scenario.upper()}")

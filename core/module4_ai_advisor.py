@@ -3,8 +3,7 @@ Module 4: AI Recommendation Engine
 Delegates to GeminiAdvisorService in LIVE AWS mode for real Google Gemini analysis.
 Falls back to built-in intelligent FinOps reasoning only in SIMULATION mode.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 
 SAFETY:
 - Gemini is analysis/recommendation ONLY.

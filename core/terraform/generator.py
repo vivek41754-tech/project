@@ -10,8 +10,7 @@ Safety & Validation Guarantees:
 - Enforces strict whitelist of supported infrastructure actions.
 - Returns UNSUPPORTED_ACTION or SECURITY_POLICY_VIOLATION on any discrepancy.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import re

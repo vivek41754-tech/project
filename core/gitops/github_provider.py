@@ -9,8 +9,7 @@ Safety Invariants:
 - Rejects automatic PR merging; merging requires human sign-off.
 - Returns explicit error statuses: GIT_CREDENTIALS_MISSING, AUTHENTICATION_FAILED, etc.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

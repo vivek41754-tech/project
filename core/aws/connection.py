@@ -4,8 +4,7 @@ AWS Connection & Authentication Service
 Provides standard Boto3 credential chain resolution, STS verification,
 and read-only service health checks for EC2, CloudWatch, S3, Cost Explorer, and Bedrock.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

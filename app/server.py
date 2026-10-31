@@ -1,8 +1,7 @@
 """
 FinOps Web Application & REST API Server (FastAPI)
 Provides real-time interactive UI and module-by-module demonstration endpoints.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os
@@ -715,12 +714,10 @@ def download_report(fmt: str):
 def get_metadata():
     return {
         "project": "FinOps Cloud Waste Hunter & Auto-Remediator",
-        "course": "ISWE309L Cloud Computing",
-        "slot": "A1 + TA1",
-        "institution": "Vellore Institute of Technology (VIT)",
+        "author": "Vivek Pandey (24MIS0216)",
         "team": [
             {"name": "Vivek Pandey", "reg_no": "24MIS0216", "email": "vivek.pandey2024@vitstudent.ac.in"},
-            {"name": "S. Hemal", "reg_no": "24MIS0050", "email": "hemal.s2024@vitstudent.ac.in"}
+            
         ],
         "modules": [
             {"num": 1, "name": "Resource Monitoring", "desc": "Collects utilization metrics from simulated/live AWS infrastructure."},

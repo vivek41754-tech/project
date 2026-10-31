@@ -22,8 +22,7 @@ L. Idempotency & Re-run safety: applying already-applied plan blocked (PLAN_ALRE
 M. Untrusted Bedrock injection / provisioner attempt screened out
 N. End-to-end API pipeline integration via FastAPI TestClient
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import os

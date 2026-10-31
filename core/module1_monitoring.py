@@ -1,8 +1,7 @@
 """
 Module 1: Resource Monitoring
 Collects resource-utilisation information from simulated cloud infrastructure and AWS CloudWatch.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Team: Vivek Pandey (24MIS0216) 
 """
 
 import os

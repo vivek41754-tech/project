@@ -4,8 +4,7 @@ Real AWS Resource Discovery Service
 Performs read-only discovery of EC2, EBS, Elastic IP, Lambda, and S3 resources
 using Boto3 paginators, handling per-service permissions without synthetic fallbacks.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import logging

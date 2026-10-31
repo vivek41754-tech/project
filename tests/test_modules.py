@@ -1,8 +1,7 @@
 """
 Comprehensive Test Suite for FinOps Cloud Waste Hunter & Auto-Remediator
 Tests Modules 1 through 7 and End-to-End Orchestration Engine.
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import sys

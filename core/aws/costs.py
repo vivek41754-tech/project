@@ -4,8 +4,7 @@ Real AWS Cost Explorer Integration Service
 Queries AWS Cost Explorer read-only APIs for actual service and region expenditure.
 Clearly distinguishes actual account spend from estimated per-resource pricing models.
 
-ISWE309L Cloud Computing - Course Project Review-1
-Team: Vivek Pandey (24MIS0216) & S. Hemal (24MIS0050)
+Author: Vivek Pandey (24MIS0216)
 """
 
 import logging
