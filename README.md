@@ -11,12 +11,8 @@ An automated Cloud Cost Optimization and DevOps platform that continuously monit
 
 ---
 
-## 🎓 Academic Project Profile
-- **Institution:** School of Computer Science Engineering and Information Systems, Vellore Institute of Technology (VIT)
-- **Review Phase:** Course Project Review-1
-- **Project Team:**
-  - **Vivek Pandey** &bull; Reg No: `24MIS0216` &bull; Email: `vivek.pandey2024@vitstudent.ac.in`
-  
+## 👤 Author
+- **Vivek Pandey** (`24MIS0216`)
 ---
 
 ## 🌟 Key Features & Problem Solved
@@ -577,7 +573,7 @@ Audit Ledger & Reporting (S3 & DynamoDB)
 
 ---
 
-## 📚 Academic References
+## 📚 References
 
 
 1. A. Q. Khan, M. Matskin, R. Prodan, C. Bussler, D. Roman, et al., "Cost modelling and optimisation for cloud: a graph-based approach," *Journal of Cloud Computing*, vol. 13, 2024.
