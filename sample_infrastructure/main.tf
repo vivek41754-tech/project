@@ -15,7 +15,7 @@ provider "aws" {
 # 1. Batch Worker EC2 Instance (Oversized Compute)
 resource "aws_instance" "analytics_batch_worker" {
   ami           = "ami-0c7217cdde317cfec"
-  instance_type = "c5.4xlarge"
+  instance_type = "m5.large" # FinOps Downsized from c5.large # FinOps Downsized from c5.4xlarge
 
   tags = {
     Name        = "analytics-batch-worker-prod"
@@ -36,27 +36,27 @@ resource "aws_instance" "internal_dashboard" {
 }
 
 # 3. Unattached Migration EBS Volume (Unattached Storage Waste)
-resource "aws_ebs_volume" "backup_migration_temp" {
-  availability_zone = "us-east-1a"
-  size              = 500
-  type              = "gp3"
-
-  tags = {
-    Name    = "backup-volume-migration-temp"
-    Purpose = "OldDatabaseMigration"
-  }
-}
-
-# 4. Legacy Log EBS Volume (Unattached Storage Waste)
-resource "aws_ebs_volume" "legacy_log_volume" {
-  availability_zone = "us-east-1a"
-  size              = 250
-  type              = "gp2"
-
-  tags = {
-    Name        = "legacy-log-volume"
-    Environment = "Legacy"
-  }
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME] resource "aws_ebs_volume" "backup_migration_temp" {
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]   availability_zone = "us-east-1a"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]   size              = 500
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]   type              = "gp3"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME] 
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]   tags = {
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]     Name    = "backup-volume-migration-temp"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]     Purpose = "OldDatabaseMigration"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # [FINOPS-REMOVED-UNATTACHED-VOLUME]   }
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] }
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] 
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] # 4. Legacy Log EBS Volume (Unattached Storage Waste)
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] resource "aws_ebs_volume" "legacy_log_volume" {
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]   availability_zone = "us-east-1a"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]   size              = 250
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]   type              = "gp2"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME] 
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]   tags = {
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]     Name        = "legacy-log-volume"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]     Environment = "Legacy"
+# [FINOPS-REMOVED-UNATTACHED-VOLUME]   }
 }
 
 # 5. Idle Serverless Lambda Function (Idle Serverless Waste)
@@ -74,10 +74,10 @@ resource "aws_lambda_function" "legacy_image_resizer" {
 }
 
 # 6. Unassociated Elastic IP (Idle Networking Waste)
-resource "aws_eip" "unassociated_ip" {
-  domain = "vpc"
-
-  tags = {
-    Name = "unassociated-elastic-ip-1"
-  }
+# [FINOPS-RELEASED-UNASSOCIATED-EIP] resource "aws_eip" "unassociated_ip" {
+# [FINOPS-RELEASED-UNASSOCIATED-EIP]   domain = "vpc"
+# [FINOPS-RELEASED-UNASSOCIATED-EIP] 
+# [FINOPS-RELEASED-UNASSOCIATED-EIP]   tags = {
+# [FINOPS-RELEASED-UNASSOCIATED-EIP]     Name = "unassociated-elastic-ip-1"
+# [FINOPS-RELEASED-UNASSOCIATED-EIP]   }
 }
